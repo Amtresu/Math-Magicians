@@ -38,7 +38,7 @@ npm start
 
 👤 **Conor Follette**
 
-- GitHub: [@RiyaBulia12](https://github.com/Amtresu)
+- GitHub: [@Amtresu](https://github.com/Amtresu)
 
 
 
