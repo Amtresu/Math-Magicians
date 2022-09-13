@@ -1,6 +1,7 @@
-import './Calculator.css';
+import './Style/Calculator.css';
 import React, { useState } from 'react';
 import calculate from '../Logic/calculate';
+import { Routes, Route, Link } from "react-router-dom";
 
 const Calculator = () => {
   const [totalSum, setTotalSum] = useState({
@@ -15,10 +16,12 @@ const Calculator = () => {
 
   
     return (
-      <div className="container">
+      <div className="calc-container">
 
+        <h3>Let`s Do Some Math!</h3>
+
+        <div className='calculator'>
         <div className="result"><span>   {totalSum.total} {totalSum.operation} {totalSum.next}</span></div>
-
         <div className="row">
           <button onClick={clickHandler}  type="button" className="button">AC</button >
           <button onClick={clickHandler} type="button" className="button">+/-</button >
@@ -52,6 +55,8 @@ const Calculator = () => {
           <button onClick={clickHandler} type="button" className="button">.</button >
           <button onClick={clickHandler} type="button" className="button-alt">=</button >
         </div>
+        </div>
+      
 
       </div>
     );
