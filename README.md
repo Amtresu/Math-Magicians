@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Math-Magician(https://amtresu-makes-great-sites.netlify.app/)
+# [Math-Magician](https://amtresu-makes-great-sites.netlify.app/)
 Math-Magician will be a site to help people who want to get better at practicing math.
 
 # Live Demo
